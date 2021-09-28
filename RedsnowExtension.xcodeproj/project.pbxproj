@@ -16,6 +16,7 @@
 		DDE17AA42702ADF60038AB44 /* RedsnowExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17AA32702ADF60038AB44 /* RedsnowExtensionTests.swift */; };
 		DDE17AAE2702ADF60038AB44 /* RedsnowExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17AAD2702ADF60038AB44 /* RedsnowExtensionUITests.swift */; };
 		DDE17AB02702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17AAF2702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift */; };
+		DDE17ABE2702B5600038AB44 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17ABD2702B5600038AB44 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DDE17AA92702ADF60038AB44 /* RedsnowExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedsnowExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE17AAD2702ADF60038AB44 /* RedsnowExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedsnowExtensionUITests.swift; sourceTree = "<group>"; };
 		DDE17AAF2702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedsnowExtensionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDE17ABD2702B5600038AB44 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		DDE17A8B2702ADF30038AB44 /* RedsnowExtension */ = {
 			isa = PBXGroup;
 			children = (
+				DDE17ABC2702B5350038AB44 /* DataType */,
 				DDE17A8C2702ADF30038AB44 /* AppDelegate.swift */,
 				DDE17A8E2702ADF30038AB44 /* SceneDelegate.swift */,
 				DDE17A902702ADF30038AB44 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				DDE17AAF2702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift */,
 			);
 			path = RedsnowExtensionUITests;
+			sourceTree = "<group>";
+		};
+		DDE17ABC2702B5350038AB44 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				DDE17ABD2702B5600038AB44 /* String+Extension.swift */,
+			);
+			path = DataType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE17ABE2702B5600038AB44 /* String+Extension.swift in Sources */,
 				DDE17A912702ADF30038AB44 /* ViewController.swift in Sources */,
 				DDE17A8D2702ADF30038AB44 /* AppDelegate.swift in Sources */,
 				DDE17A8F2702ADF30038AB44 /* SceneDelegate.swift in Sources */,
