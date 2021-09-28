@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE17A8D2702ADF30038AB44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17A8C2702ADF30038AB44 /* AppDelegate.swift */; };
+		DDE17A8F2702ADF30038AB44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17A8E2702ADF30038AB44 /* SceneDelegate.swift */; };
+		DDE17A912702ADF30038AB44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17A902702ADF30038AB44 /* ViewController.swift */; };
+		DDE17A942702ADF30038AB44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE17A922702ADF30038AB44 /* Main.storyboard */; };
+		DDE17A962702ADF60038AB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE17A952702ADF60038AB44 /* Assets.xcassets */; };
+		DDE17A992702ADF60038AB44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE17A972702ADF60038AB44 /* LaunchScreen.storyboard */; };
+		DDE17AA42702ADF60038AB44 /* RedsnowExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17AA32702ADF60038AB44 /* RedsnowExtensionTests.swift */; };
+		DDE17AAE2702ADF60038AB44 /* RedsnowExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17AAD2702ADF60038AB44 /* RedsnowExtensionUITests.swift */; };
+		DDE17AB02702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE17AAF2702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE17AA02702ADF60038AB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE17A812702ADF30038AB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE17A882702ADF30038AB44;
+			remoteInfo = RedsnowExtension;
+		};
+		DDE17AAA2702ADF60038AB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE17A812702ADF30038AB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE17A882702ADF30038AB44;
+			remoteInfo = RedsnowExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE17A892702ADF30038AB44 /* RedsnowExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedsnowExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE17A8C2702ADF30038AB44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE17A8E2702ADF30038AB44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDE17A902702ADF30038AB44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE17A932702ADF30038AB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE17A952702ADF60038AB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE17A982702ADF60038AB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE17A9A2702ADF60038AB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE17A9F2702ADF60038AB44 /* RedsnowExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedsnowExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE17AA32702ADF60038AB44 /* RedsnowExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedsnowExtensionTests.swift; sourceTree = "<group>"; };
+		DDE17AA92702ADF60038AB44 /* RedsnowExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedsnowExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE17AAD2702ADF60038AB44 /* RedsnowExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedsnowExtensionUITests.swift; sourceTree = "<group>"; };
+		DDE17AAF2702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedsnowExtensionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE17A862702ADF30038AB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE17A9C2702ADF60038AB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE17AA62702ADF60038AB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE17A802702ADF30038AB44 = {
+			isa = PBXGroup;
+			children = (
+				DDE17A8B2702ADF30038AB44 /* RedsnowExtension */,
+				DDE17AA22702ADF60038AB44 /* RedsnowExtensionTests */,
+				DDE17AAC2702ADF60038AB44 /* RedsnowExtensionUITests */,
+				DDE17A8A2702ADF30038AB44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE17A8A2702ADF30038AB44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE17A892702ADF30038AB44 /* RedsnowExtension.app */,
+				DDE17A9F2702ADF60038AB44 /* RedsnowExtensionTests.xctest */,
+				DDE17AA92702ADF60038AB44 /* RedsnowExtensionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE17A8B2702ADF30038AB44 /* RedsnowExtension */ = {
+			isa = PBXGroup;
+			children = (
+				DDE17A8C2702ADF30038AB44 /* AppDelegate.swift */,
+				DDE17A8E2702ADF30038AB44 /* SceneDelegate.swift */,
+				DDE17A902702ADF30038AB44 /* ViewController.swift */,
+				DDE17A922702ADF30038AB44 /* Main.storyboard */,
+				DDE17A952702ADF60038AB44 /* Assets.xcassets */,
+				DDE17A972702ADF60038AB44 /* LaunchScreen.storyboard */,
+				DDE17A9A2702ADF60038AB44 /* Info.plist */,
+			);
+			path = RedsnowExtension;
+			sourceTree = "<group>";
+		};
+		DDE17AA22702ADF60038AB44 /* RedsnowExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE17AA32702ADF60038AB44 /* RedsnowExtensionTests.swift */,
+			);
+			path = RedsnowExtensionTests;
+			sourceTree = "<group>";
+		};
+		DDE17AAC2702ADF60038AB44 /* RedsnowExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE17AAD2702ADF60038AB44 /* RedsnowExtensionUITests.swift */,
+				DDE17AAF2702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift */,
+			);
+			path = RedsnowExtensionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE17A882702ADF30038AB44 /* RedsnowExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE17AB32702ADF60038AB44 /* Build configuration list for PBXNativeTarget "RedsnowExtension" */;
+			buildPhases = (
+				DDE17A852702ADF30038AB44 /* Sources */,
+				DDE17A862702ADF30038AB44 /* Frameworks */,
+				DDE17A872702ADF30038AB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedsnowExtension;
+			productName = RedsnowExtension;
+			productReference = DDE17A892702ADF30038AB44 /* RedsnowExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE17A9E2702ADF60038AB44 /* RedsnowExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE17AB62702ADF60038AB44 /* Build configuration list for PBXNativeTarget "RedsnowExtensionTests" */;
+			buildPhases = (
+				DDE17A9B2702ADF60038AB44 /* Sources */,
+				DDE17A9C2702ADF60038AB44 /* Frameworks */,
+				DDE17A9D2702ADF60038AB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE17AA12702ADF60038AB44 /* PBXTargetDependency */,
+			);
+			name = RedsnowExtensionTests;
+			productName = RedsnowExtensionTests;
+			productReference = DDE17A9F2702ADF60038AB44 /* RedsnowExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE17AA82702ADF60038AB44 /* RedsnowExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE17AB92702ADF60038AB44 /* Build configuration list for PBXNativeTarget "RedsnowExtensionUITests" */;
+			buildPhases = (
+				DDE17AA52702ADF60038AB44 /* Sources */,
+				DDE17AA62702ADF60038AB44 /* Frameworks */,
+				DDE17AA72702ADF60038AB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE17AAB2702ADF60038AB44 /* PBXTargetDependency */,
+			);
+			name = RedsnowExtensionUITests;
+			productName = RedsnowExtensionUITests;
+			productReference = DDE17AA92702ADF60038AB44 /* RedsnowExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE17A812702ADF30038AB44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DDE17A882702ADF30038AB44 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DDE17A9E2702ADF60038AB44 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DDE17A882702ADF30038AB44;
+					};
+					DDE17AA82702ADF60038AB44 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DDE17A882702ADF30038AB44;
+					};
+				};
+			};
+			buildConfigurationList = DDE17A842702ADF30038AB44 /* Build configuration list for PBXProject "RedsnowExtension" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE17A802702ADF30038AB44;
+			productRefGroup = DDE17A8A2702ADF30038AB44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE17A882702ADF30038AB44 /* RedsnowExtension */,
+				DDE17A9E2702ADF60038AB44 /* RedsnowExtensionTests */,
+				DDE17AA82702ADF60038AB44 /* RedsnowExtensionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE17A872702ADF30038AB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE17A992702ADF60038AB44 /* LaunchScreen.storyboard in Resources */,
+				DDE17A962702ADF60038AB44 /* Assets.xcassets in Resources */,
+				DDE17A942702ADF30038AB44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE17A9D2702ADF60038AB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE17AA72702ADF60038AB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE17A852702ADF30038AB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE17A912702ADF30038AB44 /* ViewController.swift in Sources */,
+				DDE17A8D2702ADF30038AB44 /* AppDelegate.swift in Sources */,
+				DDE17A8F2702ADF30038AB44 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE17A9B2702ADF60038AB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE17AA42702ADF60038AB44 /* RedsnowExtensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE17AA52702ADF60038AB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE17AAE2702ADF60038AB44 /* RedsnowExtensionUITests.swift in Sources */,
+				DDE17AB02702ADF60038AB44 /* RedsnowExtensionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE17AA12702ADF60038AB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE17A882702ADF30038AB44 /* RedsnowExtension */;
+			targetProxy = DDE17AA02702ADF60038AB44 /* PBXContainerItemProxy */;
+		};
+		DDE17AAB2702ADF60038AB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE17A882702ADF30038AB44 /* RedsnowExtension */;
+			targetProxy = DDE17AAA2702ADF60038AB44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE17A922702ADF30038AB44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE17A932702ADF30038AB44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE17A972702ADF60038AB44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE17A982702ADF60038AB44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE17AB12702ADF60038AB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE17AB22702ADF60038AB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE17AB42702ADF60038AB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedsnowExtension/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsnow.RedsnowExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE17AB52702ADF60038AB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RedsnowExtension/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsnow.RedsnowExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE17AB72702ADF60038AB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsnow.RedsnowExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedsnowExtension.app/RedsnowExtension";
+			};
+			name = Debug;
+		};
+		DDE17AB82702ADF60038AB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsnow.RedsnowExtensionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedsnowExtension.app/RedsnowExtension";
+			};
+			name = Release;
+		};
+		DDE17ABA2702ADF60038AB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsnow.RedsnowExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedsnowExtension;
+			};
+			name = Debug;
+		};
+		DDE17ABB2702ADF60038AB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redsnow.RedsnowExtensionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RedsnowExtension;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE17A842702ADF30038AB44 /* Build configuration list for PBXProject "RedsnowExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE17AB12702ADF60038AB44 /* Debug */,
+				DDE17AB22702ADF60038AB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE17AB32702ADF60038AB44 /* Build configuration list for PBXNativeTarget "RedsnowExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE17AB42702ADF60038AB44 /* Debug */,
+				DDE17AB52702ADF60038AB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE17AB62702ADF60038AB44 /* Build configuration list for PBXNativeTarget "RedsnowExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE17AB72702ADF60038AB44 /* Debug */,
+				DDE17AB82702ADF60038AB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE17AB92702ADF60038AB44 /* Build configuration list for PBXNativeTarget "RedsnowExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE17ABA2702ADF60038AB44 /* Debug */,
+				DDE17ABB2702ADF60038AB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE17A812702ADF30038AB44 /* Project object */;
+}
